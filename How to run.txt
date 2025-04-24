@@ -1,0 +1,7 @@
+Open the main.sln in microsoft visual studio 2022.
+Download vcpkg.
+Use vcpkg to download a windows port of the FLINT library.
+Ensure you are using the MSVC C++ version 20 compiler.
+Link vcpkg to the solution so that it can see the FLINT library.
+Run using the local windows debugger.
+To alter run time arguments go to the configuration properties of main and alter the command arguments in the Debugging section.
